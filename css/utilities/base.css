@@ -12,3 +12,21 @@ html {
 body {
   font-family: "General Sans", sans-serif;
 }
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: var(--hc);
+}
+
+li {
+  font-size: var(--fs3);
+}
+
+p {
+  font-weight: 300;
+}

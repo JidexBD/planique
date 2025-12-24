@@ -1,0 +1,28 @@
+/* variables for reuseability */
+
+:root {
+  /* color */
+  --tc: #333333;
+  --hc: #0d0b32;
+  --tcw: #ffffff;
+  --tcb: #4d7cce;
+
+  /* typograpgy */
+  --fs2: 1.6rem;
+  --fs3: 1.8rem;
+  --fs4: 2.4rem;
+  --fs5: 3.8rem;
+  --fs1: 1.4rem;
+
+  /* font-family */
+  --ff1: "General Sans", sans-serif;
+  --ff2: "Nunito", san-serif;
+
+  /* backgeoud colors */
+  --bgn: #ffffff;
+  --bg1: #fff3e3;
+  --bg2: #f5f5dc;
+  --bg3: #cbe8f0;
+  --bg4: #4d7cce;
+  --bg5: #000000;
+}
