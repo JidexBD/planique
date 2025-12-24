@@ -1,0 +1,146 @@
+footer {
+  padding: 3rem;
+  background-color: var(--bg5);
+  color: var(--tcw);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+
+.footer-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+}
+
+.footer-top h2 {
+  font-size: var(--fs4);
+  font-weight: 700;
+}
+
+.footer-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.ft_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2.2rem;
+}
+
+.ft_container h2 {
+  font-weight: 600;
+}
+
+/* tab */
+@media (min-width: 768px) {
+  footer {
+    padding: 2rem;
+    background-color: var(--bg5);
+    color: var(--tcw);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 4rem;
+  }
+
+  .footer-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 2.5rem;
+    text-align: left;
+  }
+
+  .footer-bottom {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .ft_container {
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .ft_container h2 {
+    font-size: var(--fs4);
+    font-weight: 600;
+  }
+
+  .ft_container p {
+    font-size: var(--fs3);
+    font-weight: 400;
+  }
+}
+
+/* 1280 */
+@media (min-width: 1280px) {
+  footer {
+    padding: 3rem 2rem;
+  }
+
+  .footer-top h2 {
+    font-size: var(--fs5);
+    font-weight: 700;
+  }
+
+  .footer-bottom {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    align-items: flex-start;
+    gap: 2rem;
+  }
+
+  .ft_container h2 {
+    font-size: var(--fs5);
+    font-weight: 600;
+  }
+
+  .ft_container p {
+    font-size: var(--fs4);
+    font-weight: 400;
+  }
+}
+
+/* 1800 */
+@media (min-width: 1800px) {
+  footer {
+    padding: 3rem 2rem;
+  }
+
+  .footer-top h2 {
+    font-size: 4.5rem;
+    font-weight: 700;
+  }
+
+  .footer-bottom {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    align-items: flex-start;
+    gap: 2.5rem;
+  }
+
+  .ft_container h2 {
+    font-size: 4rem;
+    font-weight: 600;
+  }
+
+  .ft_container p {
+    font-size: var(--fs5);
+    font-weight: 400;
+  }
+}
