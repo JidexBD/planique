@@ -1,0 +1,63 @@
+.mobile-btn {
+  padding: 1rem 1.2rem;
+  border: none;
+  border-radius: 19px;
+  font-size: var(--fs2);
+  background-color: var(--bg4);
+  color: var(--tcw);
+}
+
+.mobile-btn:hover,
+.mobile-btn:active {
+  background-color: transparent;
+  border: 1px solid var(--tcb);
+  color: var(--tcb);
+}
+
+.pc-btn {
+  padding: 2rem 3.5rem;
+  border: none;
+  border-radius: 12px;
+  font-size: var(--fs2);
+  background-color: var(--bg4);
+  color: var(--tcw);
+}
+
+.pc-btn:hover,
+.pc-btn:active {
+  background-color: transparent;
+  border: 1px solid var(--tcb);
+  color: var(--tcb);
+}
+
+.fur-btn {
+  padding: 1rem 1.2rem;
+  border: none;
+  border-radius: 10px;
+  font-size: var(--fs2);
+  background-color: var(--bg4);
+  color: var(--tcw);
+}
+
+.fur-btn:hover,
+.fur-btn:active {
+  background-color: transparent;
+  border: 1px solid var(--tcb);
+  color: var(--tcb);
+}
+
+.fur-btn-outline {
+  padding: 1rem 1.2rem;
+  border: none;
+  border-radius: 10px;
+  font-size: var(--fs2);
+  background-color: white;
+  color: var(--tc);
+}
+
+.fur-btn-outline:hover,
+.fur-btn-outline:active {
+  background-color: var(--bg4);
+  border: 1px solid var(--tcb);
+  color: var(--tcw);
+}
