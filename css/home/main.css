@@ -1,0 +1,38 @@
+main {
+  padding: 2rem;
+}
+
+/* the small header */
+.small-heaidng {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+
+.sub-top {
+  border-left: 2px solid var(--tcb);
+  padding-left: 0.5rem;
+}
+.heading-three {
+  padding-left: 0.5rem;
+  font-size: var(--fs3);
+}
+
+/* tab */
+@media (min-width: 768px) {
+}
+
+/* 1280 */
+@media (min-width: 1280px) {
+}
+
+/* 1440 */
+@media (min-width: 1440px) {
+}
+
+/* 1800 */
+@media (min-width: 1800px) {
+}

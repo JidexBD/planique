@@ -89,8 +89,14 @@
   .hero-categories {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 8rem;
+    gap: 15rem;
     margin-bottom: 2rem;
+  }
+  .hero-sub-header {
+    font-size: var(--fs3);
+    font-weight: 400;
+    margin-bottom: 4rem;
+    margin-top: 3rem;
   }
 }
 
