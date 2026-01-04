@@ -21,6 +21,7 @@
   font-size: var(--fs2);
   background-color: var(--bg4);
   color: var(--tcw);
+  display: inline-block;
 }
 
 .pc-btn:hover,
