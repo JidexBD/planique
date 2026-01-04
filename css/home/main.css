@@ -118,15 +118,15 @@ main {
   }
 
   .latest-lvt img {
-    width: 700px;
-    height: 700px;
+    width: 500px;
+    height: 500px;
     border-radius: 12px;
   }
 
   .latest-lvb {
     margin-top: 2rem;
     display: flex;
-    gap: 44rem;
+    gap: 20rem;
     margin-bottom: 2rem;
   }
 
@@ -139,6 +139,11 @@ main {
     font-weight: 400;
     margin-bottom: 0.9rem;
     font-size: var(--fs3);
+  }
+
+  .furn-btns {
+    display: flex;
+    gap: 1rem;
   }
 
   .furn-price {

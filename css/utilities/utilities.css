@@ -30,7 +30,7 @@
   color: var(--tcb);
 }
 
-.fur-btn {
+.furn-btn {
   padding: 1rem 1.2rem;
   border: none;
   border-radius: 10px;
@@ -40,13 +40,13 @@
 }
 
 .fur-btn:hover,
-.fur-btn:active {
+.furn-btn:active {
   background-color: transparent;
   border: 1px solid var(--tcb);
   color: var(--tcb);
 }
 
-.fur-btn-outline {
+.furn-btn-outline {
   padding: 1rem 1.2rem;
   border: none;
   border-radius: 10px;
@@ -55,8 +55,8 @@
   color: var(--tc);
 }
 
-.fur-btn-outline:hover,
-.fur-btn-outline:active {
+.furn-btn-outline:hover,
+.furn-btn-outline:active {
   background-color: var(--bg4);
   border: 1px solid var(--tcb);
   color: var(--tcw);
