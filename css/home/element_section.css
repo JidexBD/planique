@@ -1,3 +1,87 @@
 .popular_element {
   padding: 2rem;
 }
+
+/* carousel */
+.carousel-wrapper {
+  position: relative;
+  max-width: 100%;
+}
+
+/* carousel */
+.product-carousel {
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  cursor: grab;
+}
+
+.product-carousel:active {
+  cursor: grabbing;
+}
+
+.product-carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.product-track {
+  display: flex;
+  gap: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+.product-card {
+  flex: 0 0 220px;
+  height: 260px;
+  background: #1e293b;
+  border-radius: 16px;
+  display: grid;
+  place-items: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  scroll-snap-align: start;
+  transition: transform 0.25s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-4px);
+}
+
+/* Arrows */
+.arrow {
+  position: absolute;
+  top: 45%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.6);
+  border: none;
+  color: white;
+  font-size: 2rem;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.left {
+  left: -10px;
+}
+.right {
+  right: -10px;
+}
+
+/* Progress bar */
+.progress {
+  height: 4px;
+  background: #334155;
+  border-radius: 999px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.progress-bar {
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg, #6366f1, #22d3ee);
+  transition: width 0.15s ease-out;
+}
