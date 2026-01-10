@@ -22,9 +22,12 @@
   font-size: var(--fs4);
   color: var(--tcw);
 }
+.mobile-btn {
+  display: none;
+}
 
 .pc-btn {
-  display: none;
+  display: None;
 }
 /*  tab*/
 @media (min-width: 768px) {
