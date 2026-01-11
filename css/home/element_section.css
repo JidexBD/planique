@@ -1,50 +1,56 @@
 .popular_element {
   padding: 2rem;
+  margin-bottom: 4rem;
 }
 
-/* carousel */
+/* Wrapper */
 .carousel-wrapper {
   position: relative;
+  width: 100%;
   max-width: 100%;
 }
 
-/* carousel */
+/* Scroll container */
 .product-carousel {
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   scrollbar-width: none;
+  padding: 0 0.5rem;
   cursor: grab;
 }
-
 .product-carousel:active {
   cursor: grabbing;
 }
-
 .product-carousel::-webkit-scrollbar {
   display: none;
 }
 
+/* Track */
 .product-track {
   display: flex;
-  gap: 1rem;
-  padding-bottom: 0.5rem;
 }
 
+/* Card shell (controls width + spacing) */
 .product-card {
-  flex: 0 0 220px;
-  height: 260px;
-  background: #1e293b;
+  padding: 0 0.5rem; /* VISIBLE spacing */
+  scroll-snap-align: start;
+}
+
+/* Actual card */
+.card-inner {
+  height: 400px;
+  width: 300px;
+  background: none;
   border-radius: 16px;
   display: grid;
   place-items: center;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   font-weight: 600;
-  scroll-snap-align: start;
   transition: transform 0.25s ease;
 }
 
-.product-card:hover {
-  transform: translateY(-4px);
+.card-inner:hover {
+  transform: translateY(-6px);
 }
 
 /* Arrows */
@@ -52,22 +58,22 @@
   position: absolute;
   top: 45%;
   transform: translateY(-50%);
+  z-index: 10;
   background: rgba(0, 0, 0, 0.6);
-  border: none;
   color: white;
-  font-size: 2rem;
+  border: none;
   width: 44px;
   height: 44px;
+  font-size: 2rem;
   border-radius: 50%;
   cursor: pointer;
-  z-index: 2;
 }
 
 .left {
-  left: -10px;
+  left: 6px;
 }
 .right {
-  right: -10px;
+  right: 6px;
 }
 
 /* Progress bar */
@@ -84,4 +90,96 @@
   width: 0%;
   background: linear-gradient(90deg, #6366f1, #22d3ee);
   transition: width 0.15s ease-out;
+}
+
+/* inside our card  */
+.pp-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.pp-lvt img {
+  width: 300px;
+  height: 200px;
+  border-radius: 12px;
+}
+
+.pp-lvb {
+  margin-top: 2rem;
+  display: flex;
+  gap: 7rem;
+  margin-bottom: 2rem;
+}
+
+.furnp-name {
+  font-size: 12px;
+  margin-bottom: 0.6rem;
+}
+
+.furnp-info {
+  font-weight: 400;
+  margin-bottom: 0.9rem;
+  font-size: 11px;
+}
+
+.furnp-price {
+  font-size: 11px;
+  font-weight: normal;
+  margin-bottom: 2rem;
+}
+
+.pp-right small {
+  font-size: 10px;
+  margin-left: 0.1rem;
+}
+
+.pp-btn {
+  padding: 1rem 1.2rem;
+  border: none;
+  border-radius: 10px;
+  font-size: 11px;
+  background-color: var(--bg4);
+  color: var(--tcw);
+  font-weight: 300;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.pp-btn:active,
+.pp-btn:hover {
+  background-color: transparent;
+  color: #6366f1;
+}
+
+.pp-btn-outline {
+  padding: 1rem 1.2rem;
+  border: none;
+  border-radius: 10px;
+  font-size: 11px;
+  background-color: transparent;
+  color: var(--tc);
+  font-weight: 300;
+
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.pp-btn-outline:active,
+.pp-btn-outliine:hover {
+  background-color: var(--bg4);
+  color: white;
+}
+
+/* tab */
+@media (min-width: 768px) {
+}
+
+/* 1280 */
+@media (min-width: 1280px) {
+}
+
+/*1800  */
+@media (min-width: 1800px) {
 }
