@@ -1,0 +1,144 @@
+.future-deco {
+  padding: 3rem;
+}
+
+.slider {
+  display: flex; /* Arrange slides in a row */
+  overflow-x: auto; /* Enable horizontal scroll */
+  scroll-snap-type: x mandatory; /* Snap scrolling */
+  gap: 1.5rem; /* Space between slides */
+  padding: 1rem;
+}
+
+.slide {
+  flex: 0 0 300px; /* Each slide is 300px wide */
+  height: 300px;
+  background-color: transparent;
+  color: var(--tc);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  scroll-snap-align: start; /* Snap each slide to start */
+  border-radius: 10px;
+}
+
+.fut-card {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.fut-inner img {
+  width: 400px;
+  height: 200px;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.fut-name,
+.fut-info {
+  margin-bottom: 1rem;
+}
+
+.fut-name {
+  font-size: var(--fs2);
+  font-weight: 700;
+}
+.fut-info {
+  font-size: var(--fs1);
+  font-weight: 400;
+}
+
+.ft-btn {
+  display: inline-flex;
+  padding: 1rem 1.2rem;
+  border: none;
+  border-radius: 10px;
+  font-size: 11px;
+  background-color: var(--bg4);
+  color: var(--tcw);
+  font-weight: 300;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.ft-btn:active,
+.ft-btn:hover {
+  background-color: transparent;
+  color: #6366f1;
+}
+
+@media (min-width: 768px) {
+}
+
+/* 1024 */
+@media (min-width: 1280px) {
+  .future-deco {
+    padding: 3rem 5rem;
+  }
+
+  .fut-card {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .fut-inner img {
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+  }
+
+  .fut-name,
+  .fut-info {
+    margin-bottom: 1rem;
+  }
+
+  .fut-name {
+    font-size: var(--fs2);
+    font-weight: 700;
+  }
+  .fut-info {
+    font-size: var(--fs1);
+    font-weight: 400;
+  }
+
+  .ft-btn {
+    display: inline-flex;
+    padding: 1rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    font-size: 11px;
+    background-color: var(--bg4);
+    color: var(--tcw);
+    font-weight: 300;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+
+  .ft-btn:active,
+  .ft-btn:hover {
+    background-color: transparent;
+    color: #6366f1;
+  }
+}
+
+/* 1440 */
+@media (min-width: 1440px) {
+}
+
+/* 1800 */
+@media (min-width: 1800px) {
+  .future-deco {
+    padding: 3rem 4rem;
+  }
+
+  .fut-inner img {
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+  }
+}
