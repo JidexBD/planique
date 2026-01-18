@@ -1,0 +1,31 @@
+.hero-section {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bg2);
+}
+
+@media (min-width: 768px) {
+  .hero-header {
+    font-size: var(--fs4);
+  }
+}
+
+/* 1024 */
+@media (min-width: 1280px) {
+  .hero-header {
+    font-size: var(--fs5);
+  }
+}
+
+/* 1440 */
+@media (min-width: 1440px) {
+}
+
+/* 1800 */
+@media (min-width: 1800px) {
+  .hero-header {
+    font-size: var(--fs6);
+  }
+}
