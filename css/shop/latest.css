@@ -1,3 +1,8 @@
+.latest-2,
+.latest-3 {
+  margin-top: 4rem;
+}
+
 .small-heaidng {
   display: flex;
   flex-direction: column;
